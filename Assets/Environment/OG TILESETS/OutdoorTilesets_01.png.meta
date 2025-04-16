@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: 8ac24caa34fcf2c4d8b2b71518dbfa6e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 337
+        width: 33
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ac575baed6e446b02e47805d678da
+      internalID: -162680914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 337
+        width: 34
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 75, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c9de20c3365b43a519c9c012c97bd
+      internalID: 944289975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 384
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c103634a38584eab43ebd47355eb4
+      internalID: -1040721691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 375
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145c2c02e5d6dee4eb8190beab6c1f17
+      internalID: -69308785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 375
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845a02853b189bd4e9032e6ed6cca50e
+      internalID: 1316794016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_5
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 401
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c04ae31ea77a140b1a47c200fdc850
+      internalID: -1742663514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 401
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5174f4982bb7be4a971aed10beaf754
+      internalID: -1887774421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 385
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0666f06110e3443aa98c8e753c6246
+      internalID: -1390075966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 408
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591512b9412db6d48b08ff9b9792843a
+      internalID: 916321756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 372
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc5514bb99273419bcae43fe73e2ce
+      internalID: 1015398469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_10
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 365
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6504448774822147afa0a4fcd89655f
+      internalID: 1087809108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_11
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 367
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b580e0603d8b8b64382b9bc401c974b3
+      internalID: 2094766275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 342
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c757a3cab574f24da0e85cd4104b3e3
+      internalID: -1887791682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 343
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f8c61a920583045b2cd3059c426824
+      internalID: -2078340201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 385
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393079774877b7e4bacbf04606ffb2bf
+      internalID: 1705225900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 385
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fb47b1865fe86468e5056520ca36c7
+      internalID: 1930301484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 341
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1c64a9720be534a914cfd1df47396c
+      internalID: 367040415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 312
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6764be346d023145837721c1ebc274d
+      internalID: -871249411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 353
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2cfc36f6daeb049935ccf4dd5276a8
+      internalID: 146357856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 322
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47608ce643b53b4486f3112de44b158
+      internalID: 1844426448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 321
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c8dae0bab21e438a5ff08d442cbbd
+      internalID: -1600277861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_21
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 339
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ea0f320164f2e40880337409ccdc17
+      internalID: 83061130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 336
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fbe154f47b58f4f82a91b3a037e1d7
+      internalID: -1668485059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_23
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 306
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65571bdb2dc3f4a9bb71bc577e7bcf
+      internalID: 1141625542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 306
+        width: 77
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a871f8521f42d479568a950e677765
+      internalID: 716901453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 280
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16123d92195d9ca43ab79c4cc6f2086f
+      internalID: 186732623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 281
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b71d1c1f5feb1a48a5f2e3aeeb78531
+      internalID: -1516313272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 251
+        width: 118
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d6584b8f17264a89468a6fbb3c4e3
+      internalID: -1259271686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 277
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d9b70e4e9d264abaaed294fb1cf9a
+      internalID: 2130349602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 277
+        width: 77
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd42d65d4c9ccd4a8eb184f384675e3
+      internalID: 856069715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_30
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 263
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936ec4d62b33d614b8862a12180adcc9
+      internalID: -1457399327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 249
+        width: 77
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6c5ad78fd3a8d43a9d305924b59a43
+      internalID: 91743059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_32
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 241
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73d091e3d24a7b488ae5f181963d8fc
+      internalID: 1617954037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_33
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 241
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08498c11d40d95499ed1010937984b6
+      internalID: 356798851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_34
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 241
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e580a5a532a0f4e8c91f239023d195
+      internalID: -817811206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_35
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 241
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1eb0e4f3e34124fbe9b8eb49fb0b06
+      internalID: 1681145650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 124
+        width: 135
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88930fc8d3bd144caaf201ff8ead04d
+      internalID: 812486909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 117
+        width: 137
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e31cfe38deb134aa6467ae1e8cfb92
+      internalID: 2115518605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_38
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 117
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1509b94c8de8c9944a2aa13eebe05d54
+      internalID: 655892831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_39
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 114
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc5a5f6d60f68344a157c2d830e9581
+      internalID: -479076027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_40
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 115
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019fe2be7399df9408e6b513829f1e82
+      internalID: -1859576617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 40
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0950dbff274e9c443bac9100051c4909
+      internalID: 1379190437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 18
+        width: 142
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8cbc898e904ce45a11cc667dfacc1b
+      internalID: 573804929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_43
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 353
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89eece5c5ceba64a8ca1d47a54f8011
+      internalID: 411861663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae818aa2187ccd64296716c21302e70a
+      internalID: -2101486432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_45
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b794baec088d041a19651ee91afe88
+      internalID: 818465604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_46
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aeacd0096af2a0469dbeb98d6f8a71b
+      internalID: 1436648238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2da2888a8461e4981a4e16ceb6e5d6
+      internalID: -1780659741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_48
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753464c897b5bd94586f4c3d3354b836
+      internalID: -226454128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_49
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 353
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea3aaed2f1220448af605145cb29e9
+      internalID: -2032423496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_50
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 336
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4b068ba073ea845ac3cb1bf7b9acde
+      internalID: -1402558518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 305
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7baae6d3f14de646ab72291530daa10
+      internalID: -1503990181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_52
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 305
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40692c54414b6842b6f69b46d54875c
+      internalID: 1553135002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_53
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 320
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090bb14669451cc49ba3b7eaba9ac1a0
+      internalID: 1242172000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_54
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 410
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a42c893a0a944ca65616fa9b90d4b
+      internalID: -893168571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_55
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b838045e696743a360b5f0d24fa0e
+      internalID: 948787432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_56
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c890f0c89f7ce54c98b85793bd04604
+      internalID: 928298768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_57
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 336
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8663290072d4b55498474c1acd094cdc
+      internalID: 994054526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_58
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 336
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c30d3f1b65906844b17e765713cd7ab
+      internalID: -1512860067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OutdoorTilesets_01_59
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 338
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0df1a40d54aa4498b8870c24e17ca6
+      internalID: -769384538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OutdoorTilesets_01_0: -162680914
+      OutdoorTilesets_01_1: 944289975
+      OutdoorTilesets_01_10: 1087809108
+      OutdoorTilesets_01_11: 2094766275
+      OutdoorTilesets_01_12: -1887791682
+      OutdoorTilesets_01_13: -2078340201
+      OutdoorTilesets_01_14: 1705225900
+      OutdoorTilesets_01_15: 1930301484
+      OutdoorTilesets_01_16: 367040415
+      OutdoorTilesets_01_17: -871249411
+      OutdoorTilesets_01_18: 146357856
+      OutdoorTilesets_01_19: 1844426448
+      OutdoorTilesets_01_2: -1040721691
+      OutdoorTilesets_01_20: -1600277861
+      OutdoorTilesets_01_21: 83061130
+      OutdoorTilesets_01_22: -1668485059
+      OutdoorTilesets_01_23: 1141625542
+      OutdoorTilesets_01_24: 716901453
+      OutdoorTilesets_01_25: 186732623
+      OutdoorTilesets_01_26: -1516313272
+      OutdoorTilesets_01_27: -1259271686
+      OutdoorTilesets_01_28: 2130349602
+      OutdoorTilesets_01_29: 856069715
+      OutdoorTilesets_01_3: -69308785
+      OutdoorTilesets_01_30: -1457399327
+      OutdoorTilesets_01_31: 91743059
+      OutdoorTilesets_01_32: 1617954037
+      OutdoorTilesets_01_33: 356798851
+      OutdoorTilesets_01_34: -817811206
+      OutdoorTilesets_01_35: 1681145650
+      OutdoorTilesets_01_36: 812486909
+      OutdoorTilesets_01_37: 2115518605
+      OutdoorTilesets_01_38: 655892831
+      OutdoorTilesets_01_39: -479076027
+      OutdoorTilesets_01_4: 1316794016
+      OutdoorTilesets_01_40: -1859576617
+      OutdoorTilesets_01_41: 1379190437
+      OutdoorTilesets_01_42: 573804929
+      OutdoorTilesets_01_43: 411861663
+      OutdoorTilesets_01_44: -2101486432
+      OutdoorTilesets_01_45: 818465604
+      OutdoorTilesets_01_46: 1436648238
+      OutdoorTilesets_01_47: -1780659741
+      OutdoorTilesets_01_48: -226454128
+      OutdoorTilesets_01_49: -2032423496
+      OutdoorTilesets_01_5: -1742663514
+      OutdoorTilesets_01_50: -1402558518
+      OutdoorTilesets_01_51: -1503990181
+      OutdoorTilesets_01_52: 1553135002
+      OutdoorTilesets_01_53: 1242172000
+      OutdoorTilesets_01_54: -893168571
+      OutdoorTilesets_01_55: 948787432
+      OutdoorTilesets_01_56: 928298768
+      OutdoorTilesets_01_57: 994054526
+      OutdoorTilesets_01_58: -1512860067
+      OutdoorTilesets_01_59: -769384538
+      OutdoorTilesets_01_6: -1887774421
+      OutdoorTilesets_01_7: -1390075966
+      OutdoorTilesets_01_8: 916321756
+      OutdoorTilesets_01_9: 1015398469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
