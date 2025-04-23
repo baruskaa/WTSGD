@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class InventoryUIController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField]
+    private InventoryPage inventoryUI;
+    public int inventorySize = 10;
+
+    private void Start()
     {
-        
+        inventoryUI.InitializeInventoryUI(inventorySize, inventoryUI.GetContentPanel());
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if(inventoryUI.isActiveAndEnabled == false)
+            {
+                inventoryUI.Show();
+            }
+            else
+            {
+                inventoryUI.Hide();
+            }
+        }
     }
 }
