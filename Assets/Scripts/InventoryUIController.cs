@@ -5,27 +5,37 @@ using UnityEngine;
 public class InventoryUIController : MonoBehaviour
 {
 
+    //[SerializeField]
+    //private InventoryPage inventoryUI;
+    // public int inventorySize = 10;
+
     [SerializeField]
-    private InventoryPage inventoryUI;
-    public int inventorySize = 10;
+    private GameObject inventoryUI;
 
     private void Start()
     {
-        inventoryUI.InitializeInventoryUI(inventorySize, inventoryUI.GetContentPanel());
+        //inventoryUI.InitializeInventoryUI(inventorySize, inventoryUI.GetContentPanel());
     }
 
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            if(inventoryUI.isActiveAndEnabled == false)
-            {
-                inventoryUI.Show();
-            }
-            else
-            {
-                inventoryUI.Hide();
-            }
+            // Toggle active 
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
         }
     }
+    public void Show()
+    {
+        inventoryUI.SetActive(true);
+        //animator.Play("show");
+    }
+
+    public void Hide()
+    {
+        inventoryUI.SetActive(false);
+        //animator.Play("hide");
+
+    }
+
 }

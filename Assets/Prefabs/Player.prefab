@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1069913495083129346}
   - component: {fileID: 8828228599480050789}
   - component: {fileID: 7325628832801642913}
+  - component: {fileID: 3369485801222547398}
   - component: {fileID: 1479078714706407544}
   - component: {fileID: 255795630558730308}
   m_Layer: 0
@@ -200,6 +201,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3369485801222547398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998191619994518295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37824ad017e9d5a47b4742b629e4fca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
+  inventorySize: 10
 --- !u!114 &1479078714706407544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +255,7 @@ MonoBehaviour:
   - {x: 1.09375, y: -1.4687505, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 58258
+  m_InstanceId: 64974
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000035762787, z: 0}
     m_Extent: {x: 1.09375, y: 1.4687501, z: 0}
