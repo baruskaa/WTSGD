@@ -37,6 +37,7 @@ public class QuestManager : MonoBehaviour
     public bool[] questCompleted;
     public QuestBoxManager theDM;
 
+    public string itemCollected;
 
 
     // Start is called before the first frame update

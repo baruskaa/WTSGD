@@ -6,6 +6,8 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Items")]
 public class InventoryItemTwo : ScriptableObject
 {
+
+    
     public string itemName;
     public string itemDescription;
     public Sprite itemImage;
