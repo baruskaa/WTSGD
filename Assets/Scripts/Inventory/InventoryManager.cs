@@ -50,12 +50,17 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void OnEnable()
     {
-
+        ClearInventorySlots();
         MakeInventorySlots();
-        Debug.Log("inventory made");
+        Debug.Log("made inventory");
         SetTextAndButton("", false);
     }
 
@@ -68,12 +73,24 @@ public class InventoryManager : MonoBehaviour
        // examineButton.SetActive(isButtonUsable);
     }
 
+    void ClearInventorySlots()
+    {
+        for (int i = 0; i < inventoryPanel.transform.childCount; i++)
+        {
+            Transform child = inventoryPanel.transform.GetChild(i);
+            // nagugulo ui pag wala ung unang slot
+            if (!child.CompareTag("DoNotDestroy"))
+            {
+                Destroy(child.gameObject);
+            }
+        }
+    }
+
     public void UseButtonPressed()
     {
         if (currentItem)
         {
             currentItem.Use();
-
         }
     }
 
@@ -85,4 +102,17 @@ public class InventoryManager : MonoBehaviour
 
         }
     }
+     public void Show()
+    {
+        inventoryUI.SetActive(true);
+        //animator.Play("show");
+    }
+
+    public void Hide()
+    {
+        inventoryUI.SetActive(false);
+        //animator.Play("hide");
+
+    }
+
 }

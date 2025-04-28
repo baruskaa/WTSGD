@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f4737ede2c347499a7a9baacda91d4, type: 3}
   m_Name: Apol
   m_EditorClassIdentifier: 
-  itemName: 
-  itemDescription: 
-  itemImage: {fileID: 0}
-  numberHeld: 0
-  usable: 0
+  itemName: Apol
+  itemDescription: an apol a day keeps da doktor away
+  itemImage: {fileID: -49994698, guid: f46bb6fddb22cd4489a0e03b8dbafaa1, type: 3}
+  numberHeld: 1
+  usable: 1
   unique: 0
   thisEvent:
     m_PersistentCalls:
