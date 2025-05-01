@@ -15,9 +15,10 @@ MonoBehaviour:
   itemName: Appooll
   itemDescription: hay juskopo ano ba to
   itemImage: {fileID: 2062764827, guid: f46bb6fddb22cd4489a0e03b8dbafaa1, type: 3}
-  numberHeld: 1
+  numberHeld: 0
   usable: 0
   unique: 0
+  isInspectable: 1
   thisEvent:
     m_PersistentCalls:
       m_Calls: []

@@ -18,7 +18,7 @@ public class LevelChange : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    public void NextLevel()
     {
         SceneManager.LoadScene(levelToLoad);
     }

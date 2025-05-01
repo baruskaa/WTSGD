@@ -52,7 +52,7 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        
+        Hide();
     }
 
     // Start is called before the first frame update
@@ -86,22 +86,14 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void UseButtonPressed()
+    public void InspectButtonPressed()
     {
         if (currentItem)
         {
-            currentItem.Use();
+            currentItem.Inspect();
         }
     }
 
-    public void ExamineButtonPressed()
-    {
-        if (currentItem)
-        {
-            currentItem.Examine();
-
-        }
-    }
      public void Show()
     {
         inventoryUI.SetActive(true);

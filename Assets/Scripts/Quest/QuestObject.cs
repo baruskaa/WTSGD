@@ -7,6 +7,7 @@ public class QuestObject : MonoBehaviour
 
     public int questNumber;
     public QuestManager theQM;
+    public QuestBoxManager theQMBox;
 
     public string startText;
     public string endText;
@@ -42,6 +43,9 @@ public class QuestObject : MonoBehaviour
         theQM.ShowQuestText(endText);
 
         theQM.questCompleted[questNumber] = true;
-       gameObject.SetActive(false);
+        theQMBox.CloseAfterDelay(3f);
+        // Disable quest object and its trigger so it doesn't repeat
+        gameObject.SetActive(false);
     }
+
 }

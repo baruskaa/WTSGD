@@ -59,5 +59,7 @@ public class QuestManager : MonoBehaviour
 
         theDM.currentLine = 0;
         theDM.ShowDialogue();
+
+        
     }
 }

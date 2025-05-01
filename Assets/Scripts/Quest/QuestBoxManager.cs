@@ -62,7 +62,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 
 public class QuestBoxManager : MonoBehaviour
 {
@@ -117,5 +116,16 @@ public class QuestBoxManager : MonoBehaviour
     {
         dialogueActive = true;
         dBox.SetActive(true);
+    }
+
+    public void CloseAfterDelay(float delay)
+    {
+        StartCoroutine(CloseQuestBoxAfterDelay(delay));
+    }
+
+    private IEnumerator CloseQuestBoxAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        HideBox();
     }
 }

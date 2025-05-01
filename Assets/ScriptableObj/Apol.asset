@@ -15,9 +15,22 @@ MonoBehaviour:
   itemName: Apol
   itemDescription: an apol a day keeps da doktor away
   itemImage: {fileID: -49994698, guid: f46bb6fddb22cd4489a0e03b8dbafaa1, type: 3}
-  numberHeld: 1
+  numberHeld: 0
   usable: 1
   unique: 0
+  isInspectable: 1
   thisEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2594993383925688869, guid: 17957cd05785b7244a58123ef3a806b6, type: 3}
+        m_TargetAssemblyTypeName: InspectorManager, Assembly-CSharp
+        m_MethodName: ShowInspectPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -49994698, guid: f46bb6fddb22cd4489a0e03b8dbafaa1, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

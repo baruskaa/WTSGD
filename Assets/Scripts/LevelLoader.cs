@@ -15,13 +15,7 @@ public class LevelLoader : MonoBehaviour
         button.onClick.AddListener(() => LoadNextLevel());
     }
 
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            LoadNextLevel();
-        }
-    }
+  
 
     public void LoadNextLevel()
     {

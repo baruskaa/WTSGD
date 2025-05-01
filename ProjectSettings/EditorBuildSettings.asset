@@ -9,15 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 39da47f32cc00754bb7388c08bac0946
   - enabled: 1
-    path: Assets/Scenes/SceneProvinceOG.unity
-    guid: fb9528c20320a314b9dddab1e82b426d
-  - enabled: 0
-    path: Assets/Scenes/SceneMain.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
-    path: Assets/Scenes/SceneHouse.unity
-    guid: 1839b0cb36ba82a40a11042f0039eb16
-  - enabled: 0
-    path: Assets/Scenes/SceneNinangHouse.unity
-    guid: 9ac414cfa19bd1541adeada0188c7a04
+    path: Assets/Scenes/SceneProvince.unity
+    guid: b80a9bd1b012471479856ff02b09f069
   m_configObjects: {}
