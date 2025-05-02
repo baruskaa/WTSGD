@@ -28,8 +28,10 @@ public class DialogueManager : MonoBehaviour
     public GameObject interactBtn;
     public GameObject inventBtn;
     public GameObject joystick;
+    public VirtualJoystick virtualJoystick;
 
     private DialogueTrigger currentTrigger;
+    
 
     private void Awake()
     {
@@ -59,6 +61,7 @@ public class DialogueManager : MonoBehaviour
         PlayerController.playerControlsEnabled = false;
         PlayerController.instance.SetMovementLocked(true);
 
+        virtualJoystick.ResetAnalog();
 
         animator.Play("show");
         

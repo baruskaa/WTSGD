@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class PlayerController : MonoBehaviour
     public static bool playerControlsEnabled = true;
     Vector3 movements;
 
-    public Joystick movementJoystick;
+    //public Joystick movementJoystick;
+    public VirtualJoystick joyStick;
 
     public static PlayerController instance;
 
@@ -32,13 +34,29 @@ public class PlayerController : MonoBehaviour
     void Update() {
         if (playerControlsEnabled)
         {
-            movements.x = (movementJoystick.Direction.x);
-            movements.y = (movementJoystick.Direction.y);
+            // ORIGINAL SCRIPTS
+            //movements.x = (movementJoystick.Direction.x);
+            //movements.y = (movementJoystick.Direction.y);
 
 
-            animator.SetFloat("Horizontal", movementJoystick.Direction.x);
-            animator.SetFloat("Vertical", movementJoystick.Direction.y);
-            animator.SetFloat("Speed", movements.sqrMagnitude);
+            //animator.SetFloat("Horizontal", movementJoystick.Direction.x);
+            //animator.SetFloat("Vertical", movementJoystick.Direction.y);
+            //animator.SetFloat("Speed", movements.sqrMagnitude);
+
+            movements = Vector3.zero;
+            movements.x = joyStick.HorizontalRaw();
+            movements.y = joyStick.VerticalRaw();
+
+            if (movements != Vector3.zero)
+            {
+                animator.SetFloat("Horizontal", movements.x);
+                animator.SetFloat("Vertical", movements.y);
+                animator.SetFloat("Speed", movements.sqrMagnitude);
+            }
+            else
+            {
+                animator.SetFloat("Speed", 0);
+            }
         }
            
         
@@ -54,20 +72,21 @@ public class PlayerController : MonoBehaviour
         {
             rgbd2d.velocity = Vector3.zero;
         }*/
-            if (!playerControlsEnabled)
-            {
-                rgbd2d.velocity = Vector2.zero;
-                return;
-            }
+        rgbd2d.MovePosition(transform.position + movements * moveSpeed * Time.fixedDeltaTime);
+            //if (!playerControlsEnabled)
+            //{
+            //    rgbd2d.velocity = Vector2.zero;
+            //    return;
+            //}
 
-            if (movementJoystick.Direction.magnitude > 0)
-            {
-                rgbd2d.velocity = new Vector2(movementJoystick.Direction.x * moveSpeed, movementJoystick.Direction.y * moveSpeed);
-            }
-            else
-            {
-                rgbd2d.velocity = Vector2.zero;
-            }
+            //if (movementJoystick.Direction.magnitude > 0)
+            //{
+            //    rgbd2d.velocity = new Vector2(movementJoystick.Direction.x * moveSpeed, movementJoystick.Direction.y * moveSpeed);
+            //}
+            //else
+            //{
+            //    rgbd2d.velocity = Vector2.zero;
+            //}
 
     }
 
