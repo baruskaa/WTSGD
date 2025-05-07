@@ -25,7 +25,10 @@ public class CameraControl : MonoBehaviour {
 
 	void Start()
 	{
-		player = GameObject.FindGameObjectWithTag("Player");
+
+        Screen.SetResolution((int)Screen.width, (int)Screen.height, true);
+
+        player = GameObject.FindGameObjectWithTag("Player");
 
 		if ( isPlayerNewPos ) {
 			player.transform.position = playerNewPos.position;

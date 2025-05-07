@@ -265,7 +265,7 @@ MonoBehaviour:
   moveSpeed: 6
   rgbd2d: {fileID: 0}
   animator: {fileID: 2694414349299236823}
-  movementJoystick: {fileID: 0}
+  joyStick: {fileID: 0}
 --- !u!95 &2694414349299236823
 Animator:
   serializedVersion: 5
@@ -340,7 +340,7 @@ MonoBehaviour:
   - {x: 1.09375, y: -1.4687505, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -1360
+  m_InstanceId: 66002
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000035762787, z: 0}
     m_Extent: {x: 1.09375, y: 1.4687501, z: 0}
@@ -356,7 +356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea7b779bc936f847902c9e9fd9543ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 0.5
 --- !u!114 &275724999664653994
