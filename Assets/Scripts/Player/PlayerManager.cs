@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-
+    public Animator animator;
     public int keyCount;
     public GameObject notify;
     // Start is called before the first frame update
+
+    public void PlayDeathAnimation()
+    {
+        animator.SetTrigger("Die");
+    }
     public void PickupKey()
     {
         keyCount++;

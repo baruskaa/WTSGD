@@ -117,6 +117,11 @@ public class DialogueManager : MonoBehaviour
         PlayerController.playerControlsEnabled = true;
         PlayerController.instance.SetMovementLocked(false);
 
+        if (currentTrigger != null && currentTrigger.isMovingNPC && currentTrigger.npcMovement != null)
+        {
+            currentTrigger.npcMovement.ResumeMovement();
+        }
+
         //Start quest if requested
         if (currentTrigger != null && currentTrigger.startQuestAfterDialogue)
         {
@@ -132,6 +137,9 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
+        // Add this to activate enemy behavior and disable trigger collider
+        if (currentTrigger != null) currentTrigger.OnDialogueComplete();
+
         DisableDialogue();
     }
 
@@ -140,11 +148,11 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentTrigger != null)
         {
-            if (currentTrigger.objectToReset != null)
-            {
-                Vector3 pos = currentTrigger.objectToReset.transform.position;
-                currentTrigger.objectToReset.transform.position = new Vector3(0, 0, pos.z);
-            }
+            //if (currentTrigger.objectToReset != null)
+            //{
+            //    Vector3 pos = currentTrigger.objectToReset.transform.position;
+            //    currentTrigger.objectToReset.transform.position = new Vector3(0, 0, pos.z);
+            //}
 
             if (currentTrigger.disableAfterDialogue)
             {

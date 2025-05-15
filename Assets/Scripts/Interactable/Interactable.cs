@@ -19,14 +19,15 @@ public class Interactable : MonoBehaviour
     public InspectorManager inspectorManager;
     public Sprite objectImage;
 
+    [Header("Password Panel Settings")]
+    public bool opensPasswordPanel;
+    public GameObject passwordPanel;
 
     void Start()
     {
         button.interactable = false;
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isInRange)
@@ -56,8 +57,7 @@ public class Interactable : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            isInRange= true;
-            Debug.Log("player in range");
+            isInRange = true;
             collision.gameObject.GetComponent<PlayerManager>().NotifyPlayer();
             button.interactable = true;
         }
@@ -68,7 +68,6 @@ public class Interactable : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = false;
-            Debug.Log("player NOT in range");
             collision.gameObject.GetComponent<PlayerManager>().DenotifyPlayer();
             button.interactable = false;
         }
@@ -76,9 +75,8 @@ public class Interactable : MonoBehaviour
 
     public void Inspect()
     {
-        inspectorManager.ShowInspectPanel( objectImage);
+        inspectorManager.ShowInspectPanel(objectImage);
 
-        // Set the callback AFTER panel is closed
         inspectorManager.onInspectClosed = () =>
         {
             if (triggerDialogueAfterInspect && dialogueTrigger != null)
@@ -88,4 +86,11 @@ public class Interactable : MonoBehaviour
         };
     }
 
+    public void OpenPasswordPanel()
+    {
+        if (opensPasswordPanel && passwordPanel != null)
+        {
+            passwordPanel.SetActive(true);
+        }
+    }
 }

@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
 
+        playerControlsEnabled = true;
+
         rgbd2d = GetComponent<Rigidbody2D>();
 
         if (instance == null){
