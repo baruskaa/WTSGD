@@ -31,7 +31,11 @@ public class DialogueManager : MonoBehaviour
     public VirtualJoystick virtualJoystick;
 
     private DialogueTrigger currentTrigger;
-    
+
+    public bool isTimelineControllingPlayer = false;
+
+
+    public event System.Action OnDialogueEnded;
 
     private void Awake()
     {
@@ -51,15 +55,19 @@ public class DialogueManager : MonoBehaviour
         DialogueBox.SetActive(true);
         isDialogueActive = true;
 
-        PlayerController.playerControlsEnabled = false;
+        if (!isTimelineControllingPlayer)
+        {
+            PlayerController.playerControlsEnabled = false;
 
-        PlayerController.instance.rgbd2d.velocity = Vector2.zero;
-        PlayerController.instance.animator.SetFloat("Speed", 0);
-        PlayerController.instance.animator.SetFloat("Horizontal", 0);
-        PlayerController.instance.animator.SetFloat("Vertical", 0);
+            PlayerController.instance.rgbd2d.velocity = Vector2.zero;
+            PlayerController.instance.animator.SetFloat("Speed", 0);
+            PlayerController.instance.animator.SetFloat("Horizontal", 0);
+            PlayerController.instance.animator.SetFloat("Vertical", 0);
 
-        PlayerController.playerControlsEnabled = false;
-        PlayerController.instance.SetMovementLocked(true);
+            PlayerController.instance.SetMovementLocked(true);
+
+            virtualJoystick.ResetAnalog();
+        };
 
         virtualJoystick.ResetAnalog();
 
@@ -107,6 +115,14 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+
+        if (!isTimelineControllingPlayer)
+        {
+            PlayerController.playerControlsEnabled = true;
+            PlayerController.instance.SetMovementLocked(false);
+        }
+        isTimelineControllingPlayer = false;
+
         PlayerController.playerControlsEnabled = true;
         animator.Play("hide");
         isDialogueActive = false;
@@ -116,6 +132,7 @@ public class DialogueManager : MonoBehaviour
         joystick.SetActive(true);
         PlayerController.playerControlsEnabled = true;
         PlayerController.instance.SetMovementLocked(false);
+
 
         if (currentTrigger != null && currentTrigger.isMovingNPC && currentTrigger.npcMovement != null)
         {
@@ -141,6 +158,8 @@ public class DialogueManager : MonoBehaviour
         if (currentTrigger != null) currentTrigger.OnDialogueComplete();
 
         DisableDialogue();
+
+        OnDialogueEnded?.Invoke();
     }
 
 
@@ -169,5 +188,6 @@ public class DialogueManager : MonoBehaviour
 
         currentTrigger = null;
     }
+
 
 }
