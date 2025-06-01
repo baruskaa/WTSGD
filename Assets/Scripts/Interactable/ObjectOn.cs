@@ -1,23 +1,40 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectOn : MonoBehaviour
 {
-    [Header("Object To Enable")]
-    public GameObject GameObject;
+    [Header("Objects To Enable")]
+    public GameObject[] objectsToEnable;
 
-    public void EnableObject()
+
+    [Header("One-Time Trigger")]
+    public GameObject self;
+    public bool disableAfterTrigger = false;
+    private bool hasTriggered = false;
+
+    public void EnableObjects()
     {
-        GameObject.SetActive(true);
+        foreach (GameObject obj in objectsToEnable)
+        {
+            if (obj != null)
+                obj.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player") && !hasTriggered)
         {
-            GameObject.SetActive(true);
+            EnableObjects();
+            hasTriggered = true;
 
+            if (disableAfterTrigger)
+            {
+                self.SetActive(false);
+            }
         }
     }
+
 }

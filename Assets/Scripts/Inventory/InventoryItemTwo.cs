@@ -14,17 +14,33 @@ public class InventoryItemTwo : ScriptableObject
     public bool usable;
     public bool unique;
 
-    public bool isInspectable = true; 
+    public bool isInspectable = true;
+
+    public Sprite inspectSprite; // NEW — sprite to show when inspected
+
+    public InspectorManager inspectorManager; 
 
     public UnityEvent thisEvent;
-    /*public InspectorManager inspectorManager;
-    public Sprite objectInspectImage;
-
-    public Button inspectbutton;*/
 
     public void Inspect()
     {
-        Debug.Log("Inspecting Item");
+        if (isInspectable)
+        {
+            if (inspectorManager == null)
+            {
+                inspectorManager = GameObject.FindObjectOfType<InspectorManager>();
+            }
+
+            if (inspectorManager != null && inspectSprite != null)
+            {
+                inspectorManager.ShowInspectPanel(inspectSprite);
+            }
+            else
+            {
+                Debug.LogWarning("InspectorManager or inspectSprite missing for " + itemName);
+            }
+        }
+
         thisEvent.Invoke();
     }
 }

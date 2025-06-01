@@ -19,6 +19,8 @@ MonoBehaviour:
   usable: 1
   unique: 0
   isInspectable: 1
+  inspectSprite: {fileID: -1794517008, guid: 4f36c602f84e9c44d9c226ca77c3fedd, type: 3}
+  inspectorManager: {fileID: 0}
   thisEvent:
     m_PersistentCalls:
       m_Calls: []

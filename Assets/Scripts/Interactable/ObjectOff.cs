@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class ObjectOff : MonoBehaviour
 {
-    [Header("Object To Disable")]
-    public GameObject GameObject;
+    [Header("Objects To Disable")]
+    public GameObject[] objectsToDisable;
 
-    public void DisableObject()
+    [Header("One-Time Trigger")]
+    public GameObject self;
+    public bool disableAfterTrigger = false;
+    private bool hasTriggered = false;
+
+    public void DisableObjects()
     {
-        GameObject.SetActive(false);
+        foreach (GameObject obj in objectsToDisable)
+        {
+            if (obj != null)
+                obj.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
-            GameObject.SetActive(false);
+            DisableObjects();
+            hasTriggered = true;
 
+            if (disableAfterTrigger)
+            {
+                self.SetActive(false);
+            }
         }
     }
 }

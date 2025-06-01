@@ -9,6 +9,17 @@ public class PlayerManager : MonoBehaviour
     public GameObject notify;
     // Start is called before the first frame update
 
+    public bool hasMagicSpellBook = false;
+    public bool isTraumatized = false;
+
+    public bool hasSavedSister = false;
+    public void PickupSpellBook()
+    {
+        hasMagicSpellBook = true;
+        Debug.Log("Magic Spell Book obtained");
+    }
+
+
     public void PlayDeathAnimation()
     {
         animator.SetTrigger("Die");

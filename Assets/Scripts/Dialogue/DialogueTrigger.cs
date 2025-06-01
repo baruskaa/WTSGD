@@ -50,6 +50,12 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject[] objectsToEnable;
     public GameObject[] objectsToDisable;
 
+    [Header("PLAYER & UI")]
+    public bool openPanelAfterDialogue;
+    public PlayerManager playerManager;
+    public GameObject withSpellBookPanel;
+    public GameObject withoutSpellBookPanel;
+
     public void TriggerDialogue()
     {
         if (isMovingNPC && npcMovement != null)
@@ -82,6 +88,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public void OnDialogueComplete()
     {
+        // Handle enemy activation
         if (activateEnemyAI && enemyAIScript != null)
         {
             enemyAIScript.enabled = true;
@@ -99,27 +106,42 @@ public class DialogueTrigger : MonoBehaviour
             }
         }
 
+        // Toggle objects
         if (useObjectToggles)
         {
             foreach (GameObject go in objectsToEnable)
-            {
                 if (go != null) go.SetActive(true);
-            }
 
             foreach (GameObject go in objectsToDisable)
-            {
                 if (go != null) go.SetActive(false);
-            }
         }
 
+        // Resume NPC
         if (isMovingNPC && npcMovement != null)
         {
             npcMovement.ResumeMovement();
         }
 
+        // Disable self if needed
         if (disableAfterDialogue)
         {
             gameObject.SetActive(false);
         }
+
+        // Only show panel if toggle is enabled
+        if (openPanelAfterDialogue && playerManager != null)
+        {
+            if (playerManager.hasMagicSpellBook)
+            {
+                if (withSpellBookPanel != null)
+                    withSpellBookPanel.SetActive(true);
+            }
+            else
+            {
+                if (withoutSpellBookPanel != null)
+                    withoutSpellBookPanel.SetActive(true);
+            }
+        }
     }
 }
+

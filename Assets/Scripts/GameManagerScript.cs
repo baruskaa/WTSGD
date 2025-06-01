@@ -39,22 +39,18 @@ public class GameManagerScript : MonoBehaviour
         gameOverCanvasGroup.blocksRaycasts = true;
     }
 
-    public void RestartLevel()
+    public void RestartLevel(int sceneBuildIndex)
     {
-        // Reset player movement
         PlayerController.playerControlsEnabled = true;
 
-        // Optionally reset any other static or persistent states here
-
         gameOverUI.SetActive(false);
-        StartCoroutine(ReloadCurrentLevel());
+        StartCoroutine(ReloadLevelByIndex(sceneBuildIndex));
     }
 
-
-    private IEnumerator ReloadCurrentLevel()
+    private IEnumerator ReloadLevelByIndex(int sceneBuildIndex)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(sceneBuildIndex);
     }
 }

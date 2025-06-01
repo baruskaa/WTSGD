@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - Teleporter
   - DoNotDestroy
+  - Survivor
   layers:
   - Default
   - TransparentFX

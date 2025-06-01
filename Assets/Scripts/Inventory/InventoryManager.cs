@@ -15,6 +15,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private GameObject useButton;
     //[SerializeField] private GameObject examineButton;
     public InventoryItemTwo currentItem;
+    public InspectorManager inspectorManager;
 
     public void SetTextAndButton(string description, bool buttonActive)
     {
@@ -90,6 +91,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (currentItem)
         {
+            currentItem.inspectorManager = inspectorManager;
             currentItem.Inspect();
         }
     }

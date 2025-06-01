@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Interactable : MonoBehaviour
 {
     public bool isInRange;
-    public KeyCode interactKey;
+    public KeyCode interactKey = KeyCode.E;
     public Button button;
     public UnityEvent interactAction;
 
@@ -23,6 +23,10 @@ public class Interactable : MonoBehaviour
     public bool opensPasswordPanel;
     public GameObject passwordPanel;
 
+    [Header("Interaction Settings")]
+    [Tooltip("If true, interaction triggers automatically when player enters trigger. Otherwise, player must press interact key or button.")]
+    public bool triggerOnEnter = false;  // <-- New boolean, default false
+
     void Start()
     {
         button.interactable = false;
@@ -30,7 +34,7 @@ public class Interactable : MonoBehaviour
 
     void Update()
     {
-        if (isInRange)
+        if (isInRange && !triggerOnEnter)  // Only allow key/button interaction if not auto-triggering
         {
             if (Input.GetKeyDown(interactKey))
             {
@@ -58,8 +62,17 @@ public class Interactable : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = true;
-            collision.gameObject.GetComponent<PlayerManager>().NotifyPlayer();
-            button.interactable = true;
+            
+            if (triggerOnEnter)
+            {
+                interactAction.Invoke();
+            }
+            else
+            {
+                collision.gameObject.GetComponent<PlayerManager>().NotifyPlayer();
+                button.interactable = true;
+
+            }
         }
     }
 
