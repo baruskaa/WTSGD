@@ -10,6 +10,10 @@ public class Bar : MonoBehaviour
     [Header("Optional: UI Panel to monitor")]
     public GameObject instructionsPanel;
 
+    [Header("Scene Load Settings")]
+    public LevelLoader levelLoader;
+    public int sceneIndexToLoad = 1;
+
     private int tweenId;
     private bool isPaused = false;
 
@@ -44,6 +48,13 @@ public class Bar : MonoBehaviour
     private void OnBarFinished()
     {
         Debug.Log("Bar scale reached 0 — time's up!");
-        // Additional logic here
+        if (levelLoader != null)
+        {
+            levelLoader.LoadLevelByIndex(sceneIndexToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("LevelLoader not assigned.");
+        }
     }
 }
