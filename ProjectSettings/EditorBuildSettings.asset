@@ -32,4 +32,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter3 Traumatized.unity
     guid: fd142f24879df4f42a23b7d7e8cd2afa
+  - enabled: 1
+    path: Assets/Scenes/Chapter1Save.unity
+    guid: 1a088968cf0082547ab3014842db87de
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ch1 Cutscene.unity
+    guid: 14c57d1f503b6c84382eda88553f1087
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ch2 Cutscene.unity
+    guid: ce590fde85c4a2440ad8bd1adca08d40
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ch3 Cutscene.unity
+    guid: 8bd18d96c2169764dae3ce717c68b60f
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/CH3 SoldierNPCTorture.unity
+    guid: f043a82c8a88ce442b156072aa9ae6f3
   m_configObjects: {}

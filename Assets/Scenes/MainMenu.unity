@@ -156,7 +156,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1280, y: 700}
+  m_ReferenceResolution: {x: 1612, y: 700}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -683,6 +683,7 @@ MonoBehaviour:
   inventBtn: {fileID: 0}
   joystick: {fileID: 0}
   virtualJoystick: {fileID: 0}
+  isTimelineControllingPlayer: 0
 --- !u!114 &2134973231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,10 +916,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4501792884587064469, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501792884587064469, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.4792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501792884587064469, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.4792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501792884587064469, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.4792453
+      objectReference: {fileID: 0}
     - target: {fileID: 7218190705054803334, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 6379951168397909717}
+    - target: {fileID: 7902013042628506482, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7902013042628506482, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevelByIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 7902013042628506482, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688480844162288677, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688480844162288677, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.48235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688480844162288677, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.48235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688480844162288677, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.48235294
+      objectReference: {fileID: 0}
     - target: {fileID: 8903659655216741797, guid: f339900f180938d4c885bc47e9f55aec, type: 3}
       propertyPath: m_Name
       value: MainMenu
