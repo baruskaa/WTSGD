@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6333539514407216366}
   - component: {fileID: 8918213003719011692}
   - component: {fileID: 1796189938550722012}
-  - component: {fileID: 7029932341924875496}
   - component: {fileID: 8151771771178735209}
   m_Layer: 5
   m_Name: BorderSelect
@@ -78,64 +77,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7029932341924875496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214144700373683305}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 409a53c2fc720400bb482962c5563548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings:
-    _blur: 0
-    _endAngle: 360
-    _fillColor: {r: 0.18039216, g: 0.8, b: 0.44313726, a: 0}
-    _fillColor2: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
-    _fillOffset: {x: 0, y: 0}
-    _fillPathLoops: 0
-    _fillRotation: 0
-    _fillScale: {x: 1, y: 1}
-    _fillTexture: {fileID: 0}
-    _fillType: 2
-    _gradientAxis: 0
-    _gradientStart: 0
-    _gradientType: 0
-    _gridSize: 30
-    _innerCutout: {x: 0, y: 0}
-    _invertArc: 0
-    _lineSize: 8
-    _obsoleteNumSides: -1
-    _outlineColor: {r: 0.103091605, g: 0.10943389, b: 0, a: 1}
-    _outlineSize: 5
-    _pathSegments:
-    - p0: {x: -0.3, y: 0, z: 0}
-      p1: {x: 0, y: 0, z: 0}
-      p2: {x: 0.3, y: 0, z: 0}
-    _pathThickness: 0.1
-    _polygonPreset: 4
-    _polyVertices:
-    - {x: -0.000000021855694, y: 0.5}
-    - {x: -0.4330127, y: 0.25000003}
-    - {x: -0.43301263, y: -0.2500001}
-    - {x: 0.0000000059624403, y: -0.5}
-    - {x: 0.43301278, y: -0.24999988}
-    - {x: 0.4330127, y: 0.25000003}
-    _roundness: 10
-    _roundnessBottomLeft: 10
-    _roundnessBottomRight: 10
-    _roundnessPerCorner: 0
-    _roundnessTopLeft: 10
-    _roundnessTopRight: 10
-    _shapeType: 2
-    _startAngle: 0
-    _triangleOffset: 0.5
-    _usePolygonMap: 0
-  wasConverted: 1
-  preConvertedScale: {x: 1.0195105, y: 1.0195105, z: 1.0195105}
 --- !u!114 &8151771771178735209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,7 +409,6 @@ GameObject:
   - component: {fileID: 6581845112717320011}
   - component: {fileID: 2244305668315485009}
   - component: {fileID: 3434696757957557881}
-  - component: {fileID: 6714672203924046756}
   - component: {fileID: 6248504895882971009}
   - component: {fileID: 8041899861384148772}
   - component: {fileID: 8798138328893871312}
@@ -537,64 +477,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6714672203924046756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4921216103704003322}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 409a53c2fc720400bb482962c5563548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings:
-    _blur: 0
-    _endAngle: 360
-    _fillColor: {r: 1, g: 1, b: 1, a: 1}
-    _fillColor2: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
-    _fillOffset: {x: 0, y: 0}
-    _fillPathLoops: 0
-    _fillRotation: 0
-    _fillScale: {x: 1, y: 1}
-    _fillTexture: {fileID: 0}
-    _fillType: 2
-    _gradientAxis: 0
-    _gradientStart: 0
-    _gradientType: 0
-    _gridSize: 30
-    _innerCutout: {x: 0, y: 0}
-    _invertArc: 0
-    _lineSize: 8
-    _obsoleteNumSides: -1
-    _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-    _outlineSize: 0
-    _pathSegments:
-    - p0: {x: -0.3, y: 0, z: 0}
-      p1: {x: 0, y: 0, z: 0}
-      p2: {x: 0.3, y: 0, z: 0}
-    _pathThickness: 0.1
-    _polygonPreset: 4
-    _polyVertices:
-    - {x: -0.000000021855694, y: 0.5}
-    - {x: -0.4330127, y: 0.25000003}
-    - {x: -0.43301263, y: -0.2500001}
-    - {x: 0.0000000059624403, y: -0.5}
-    - {x: 0.43301278, y: -0.24999988}
-    - {x: 0.4330127, y: 0.25000003}
-    _roundness: 10
-    _roundnessBottomLeft: 10
-    _roundnessBottomRight: 10
-    _roundnessPerCorner: 0
-    _roundnessTopLeft: 10
-    _roundnessTopRight: 10
-    _shapeType: 2
-    _startAngle: 0
-    _triangleOffset: 0.5
-    _usePolygonMap: 0
-  wasConverted: 1
-  preConvertedScale: {x: 1, y: 1, z: 1}
 --- !u!114 &6248504895882971009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +648,6 @@ GameObject:
   - component: {fileID: 4301106726500567494}
   - component: {fileID: 973169792827392234}
   - component: {fileID: 63006961639338907}
-  - component: {fileID: 7548690269342040428}
   m_Layer: 5
   m_Name: ItemImg
   m_TagString: Untagged
@@ -833,60 +714,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7548690269342040428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8939630016647389255}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 409a53c2fc720400bb482962c5563548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings:
-    _blur: 0
-    _endAngle: 360
-    _fillColor: {r: 1, g: 1, b: 1, a: 1}
-    _fillColor2: {r: 0, g: 0, b: 0, a: 1}
-    _fillOffset: {x: 0, y: 0}
-    _fillPathLoops: 0
-    _fillRotation: 0
-    _fillScale: {x: 1, y: 1}
-    _fillTexture: {fileID: 0}
-    _fillType: 2
-    _gradientAxis: 0
-    _gradientStart: 0
-    _gradientType: 0
-    _gridSize: 0.2
-    _innerCutout: {x: 0, y: 0}
-    _invertArc: 0
-    _lineSize: 0.05
-    _obsoleteNumSides: -1
-    _outlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    _outlineSize: 0
-    _pathSegments:
-    - p0: {x: -0.3, y: 0, z: 0}
-      p1: {x: 0, y: 0, z: 0}
-      p2: {x: 0.3, y: 0, z: 0}
-    _pathThickness: 0.1
-    _polygonPreset: 3
-    _polyVertices:
-    - {x: -0.000000021855694, y: 0.5}
-    - {x: -0.4755283, y: 0.1545084}
-    - {x: -0.29389253, y: -0.40450856}
-    - {x: 0.29389274, y: -0.4045084}
-    - {x: 0.4755282, y: 0.15450864}
-    _roundness: 5
-    _roundnessBottomLeft: 5
-    _roundnessBottomRight: 5
-    _roundnessPerCorner: 0
-    _roundnessTopLeft: 5
-    _roundnessTopRight: 5
-    _shapeType: 2
-    _startAngle: 0
-    _triangleOffset: 0.5
-    _usePolygonMap: 0
-  wasConverted: 1
-  preConvertedScale: {x: 0.96464, y: 0.96464, z: 0.96464}
