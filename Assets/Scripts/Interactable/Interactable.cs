@@ -32,6 +32,11 @@ public class Interactable : MonoBehaviour
         button.interactable = false;
     }
 
+    public void InvokeAction()
+    {
+        interactAction.Invoke();
+    }
+
     void Update()
     {
         if (isInRange && !triggerOnEnter)  // Only allow key/button interaction if not auto-triggering

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending Good.unity
     guid: e2d8c9cee1097474db629c8b0ab0c17d
+  - enabled: 1
+    path: Assets/Scenes/Chapter3 Traumatized.unity
+    guid: fd142f24879df4f42a23b7d7e8cd2afa
   m_configObjects: {}

@@ -125,7 +125,7 @@ public class AIChaseChap3 : MonoBehaviour
 
     private IEnumerator TriggerSceneLoadAfterDelay()
     {
-        yield return new WaitForSeconds(1.2f); // Wait for death animation
+        yield return new WaitForSeconds(0.5f); // Wait for death animation
 
         if (levelLoader != null && playerManager != null)
         {

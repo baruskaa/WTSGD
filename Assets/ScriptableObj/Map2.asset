@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Map2
   m_EditorClassIdentifier: 
   itemName: Map 2nd Half
-  itemDescription: Map 2nd Half Map 2nd Half Map 2nd Half Map 2nd Half
+  itemDescription: The second half of the map of the prison.
   itemImage: {fileID: 2048578631, guid: b1e33d7e5c2610d41b683747535ff952, type: 3}
-  numberHeld: 0
+  numberHeld: 4
   usable: 1
   unique: 0
   isInspectable: 1
